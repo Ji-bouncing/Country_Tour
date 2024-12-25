@@ -1,0 +1,77 @@
+html{
+    font-size:62.5%;
+}
+body{
+    background:rgb(72, 72, 235);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    height:60rem;
+    width:35%;
+    margin:5% auto;
+    background: white;
+    border-radius: 2%;
+}
+.firstDiv{
+    padding-top:15%;
+    text-align: center;
+}
+
+#container div input{
+    border: none;
+    border-bottom:2px solid rgb(79, 79, 238);
+    margin-right:2%;
+    padding:1% 0.65rem;
+    outline:none;
+}
+button{
+    background: rgb(79, 79, 238);
+    font-weight:500;
+    color:white;
+    padding:2%;
+    border: none;
+    border-radius:1.5rem;
+    font-size:1.5rem;
+    width:10rem;
+}
+button:hover{
+    background: blue;
+}
+.countryImage{
+    text-align: center;
+    margin-top:5%;
+    display: none;
+}
+.countryImage img{
+    width:200px;
+    height:150px;
+    border-radius: 1rem;
+}
+.countryImage h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    font-size: 1.8rem;
+}
+
+div.otherInfo{
+    padding-left:5%;
+    font-size: 1.2rem;
+    font-weight: 200;
+    text-transform: capitalize;
+    display: none;
+    margin-top:10%;
+}
+div.otherInfo h2{
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+}
+div.otherInfo h2 span{
+    padding-left: 3%;
+}
+.errorTime{
+    display: none;
+    text-align: center;
+    vertical-align: middle;
+    margin-top:50%;
+}
